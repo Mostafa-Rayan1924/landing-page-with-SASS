@@ -1,0 +1,19 @@
+$primaryColor:#0d6efd;
+$textcolor:black;
+$padding: 100px 0 100px 0;
+
+@mixin flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+button{
+    border: none;
+   background-color:$primaryColor;
+    border-radius: 12px;
+    color: white;
+    padding: 8px 35px;
+    &:hover{
+        background-color: #3883f3;
+    }
+}
